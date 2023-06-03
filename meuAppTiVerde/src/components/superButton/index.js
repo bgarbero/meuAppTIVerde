@@ -33,7 +33,7 @@ const SuperButton = (props) => {
 const style = StyleSheet.create({
     botaoOQueE:{
         right: 90,
-        top: 70,
+        top: 160,
         backgroundColor: '#3B8528',
         padding: 10,
         width: 138,
@@ -50,7 +50,7 @@ const style = StyleSheet.create({
     },
     botaoBeneficios:{
         right: 90,
-        top: 100,
+        top: 190,
         backgroundColor: '#3B8528',
         padding: 10,
         width: 138,
@@ -67,14 +67,14 @@ const style = StyleSheet.create({
     },
     botaoImplementacao:{
         left: 90,
-        top: -215,
+        top: -125,
         backgroundColor: '#3B8528',
         padding: 10,
         width: 138,
         height: 143,
         fontSize: 13,
         borderRadius: 10,
-        opacity: 70
+        opacity: 200
     },
     implementacao:{
         textAlign: 'center',
@@ -84,7 +84,7 @@ const style = StyleSheet.create({
     },
     botaoCases:{
         left: 90,
-        top: -185,
+        top: -95,
         backgroundColor: '#3B8528',
         padding: 10,
         width: 138,

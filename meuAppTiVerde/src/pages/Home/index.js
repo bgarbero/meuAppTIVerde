@@ -27,8 +27,9 @@ const style = StyleSheet.create({
         textAlign: 'center',
         fontSize: 32,
         fontWeight: '400',
-        marginBottom: 100,
-        opacity: 70
+        //marginBottom: 100,
+        opacity: 70,
+        top: 120
     }
 });
 
