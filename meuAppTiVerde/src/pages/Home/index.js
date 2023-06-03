@@ -1,5 +1,5 @@
 import React from "react";
-import {Text, StyleSheet, View} from "react-native";
+import {Text, StyleSheet, View,Image} from "react-native";
 import SuperButton from "../../components/superButton";
 
 function Home (){
@@ -30,7 +30,7 @@ const style = StyleSheet.create({
         //marginBottom: 100,
         opacity: 70,
         top: 120
-    }
+    },
 });
 
 export default Home;
