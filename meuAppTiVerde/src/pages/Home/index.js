@@ -23,15 +23,6 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#E9DFD6'
     },
-/*      titulo:{
-        color: '#3B8528',
-        textAlign: 'center',
-        fontSize: 32,
-        fontWeight: '400',
-        //marginBottom: 100,
-        opacity: 70,
-        top: 120
-    }, */
 });
 
 export default Home;

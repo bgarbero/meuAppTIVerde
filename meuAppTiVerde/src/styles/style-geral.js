@@ -8,12 +8,13 @@ const Container = styled.View`
 `;
 
 const MeuTexto = styled.Text`
-    /* font-family: Open Sans; */
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     color: #E9DFD6;
+    text-Align: center;
+    top: 90;
 `;
 
 const MeuTitulo = styled.Text`
@@ -21,21 +22,18 @@ const MeuTitulo = styled.Text`
         text-Align: center;
         font-Size: 32;
         font-Weight: 400;
-        //marginBottom: 100,
         opacity: 70;
         top: 120;
 `;
 
 const MeuBotao = styled.TouchableOpacity`
-/*         right: 90;
-        top: 160; */
         background-Color: #3B8528;
-        /* padding: 10; */
         width: 138;
         height: 143;
         font-Size: 13;
         border-Radius: 10;
         opacity: 70;
+        padding: 10px;
 `;
 
 export {

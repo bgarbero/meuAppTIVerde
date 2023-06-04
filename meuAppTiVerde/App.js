@@ -1,23 +1,39 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './src/pages/Home';
+import contato from './src/pages/Contato';
+import configuracoes from './src/pages/Configuracoes';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-    //<View>
-      //<StatusBar style="auto" />
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen
+        name='Contato'
+        component={contato}/>
 
-      <Home></Home>
+        <Tab.Screen
+        name='Home'
+        component={Home}/>
 
-    //</View>
+        <Tab.Screen
+        name='Configurações'
+        component={configuracoes}/>
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  //container: {
-    //flex: 1,
-   // backgroundColor: '#E9DFD6',
-    //alignItems: 'center',
-    //justifyContent: 'center'
-  //},
-});
+/* const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#E9DFD6',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+}); */
