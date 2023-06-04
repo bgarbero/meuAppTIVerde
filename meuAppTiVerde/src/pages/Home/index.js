@@ -1,10 +1,9 @@
 import React from "react";
 import {Text, StyleSheet, View, Image} from "react-native";
-import SuperButton from "../../components/superButton";
 import { Container, MeuTexto, MeuTitulo } from "../../styles/style-geral";
+import SuperButton from "../../components/SuperButton";
 
-function Home ({navigation}){
-
+function Home (){
     return (
         <Container>
             <MeuTitulo>

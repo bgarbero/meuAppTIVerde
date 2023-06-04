@@ -23,10 +23,48 @@ const MeuTitulo = styled.Text`
         font-Size: 32;
         font-Weight: 400;
         opacity: 70;
-        top: 120;
+        top: 60;
 `;
 
-const MeuBotao = styled.TouchableOpacity`
+const MeuBotaoOQueE = styled.TouchableOpacity`
+        right: 90;
+        top: 100;
+        background-Color: #3B8528;
+        width: 138;
+        height: 143;
+        font-Size: 13;
+        border-Radius: 10;
+        opacity: 70;
+        padding: 10px;
+`;
+
+const MeuBotaoBeneficios = styled.TouchableOpacity`
+        right: 90;
+        top: 130;
+        background-Color: #3B8528;
+        width: 138;
+        height: 143;
+        font-Size: 13;
+        border-Radius: 10;
+        opacity: 70;
+        padding: 10px;
+`;
+
+const MeuBotaoImplementacao = styled.TouchableOpacity`
+        left: 90;
+        top: -187;
+        background-Color: #3B8528;
+        width: 138;
+        height: 143;
+        font-Size: 13;
+        border-Radius: 10;
+        opacity: 70;
+        padding: 10px;
+`;
+
+const MeuBotaoCases = styled.TouchableOpacity`
+        left: 90;
+        top: -156;
         background-Color: #3B8528;
         width: 138;
         height: 143;
@@ -40,5 +78,8 @@ export {
     Container,
     MeuTexto,
     MeuTitulo,
-    MeuBotao
+    MeuBotaoOQueE,
+    MeuBotaoBeneficios,
+    MeuBotaoImplementacao,
+    MeuBotaoCases
 }

@@ -11,4 +11,4 @@ function oQueE(){
     )
 }
 
-export default oQueE;
+export default oQueE

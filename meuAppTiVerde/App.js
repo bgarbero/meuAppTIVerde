@@ -18,7 +18,7 @@ export default function App() {
          component={contato}
          options={{
           headerStyle:{
-            backgroundColor: "#3B8528"
+            backgroundColor: "#3B8528",
           }
          }}/>
 
