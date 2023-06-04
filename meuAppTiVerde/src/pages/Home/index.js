@@ -1,17 +1,18 @@
 import React from "react";
-import {Text, StyleSheet, View,Image} from "react-native";
+import {Text, StyleSheet, View, Image} from "react-native";
 import SuperButton from "../../components/superButton";
+import { Container, MeuTexto, MeuTitulo } from "../../styles/style-geral";
 
 function Home (){
     return (
-        <View style={style.home}>
-            <Text style={style.titulo}>
+        <Container style={style.home}>
+            <MeuTitulo style={style.titulo}>
                 TI Verde
-            </Text>
+            </MeuTitulo>
 
         <SuperButton></SuperButton>
 
-        </View>
+        </Container>
     );//aqui iremos retornar um código em jsx
 } // criar páginas assim e componentes menores com arro function
 
@@ -22,7 +23,7 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#E9DFD6'
     },
-    titulo:{
+/*      titulo:{
         color: '#3B8528',
         textAlign: 'center',
         fontSize: 32,
@@ -30,7 +31,7 @@ const style = StyleSheet.create({
         //marginBottom: 100,
         opacity: 70,
         top: 120
-    },
+    }, */
 });
 
 export default Home;

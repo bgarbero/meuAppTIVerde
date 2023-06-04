@@ -1,31 +1,32 @@
 import React from "react";
 import {StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
+import { Container, MeuTexto } from "../../styles/style-geral";
 
-const SuperButton = (props) => {
+const SuperButton = () => {
     return(
     <View>
         <TouchableOpacity style={style.botaoOQueE}>
-            <Text style={style.oQueE}>
+            <MeuTexto style={style.oQueE}>
                 O que é?
-            </Text>
+            </MeuTexto>
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botaoBeneficios}>
-            <Text style={style.beneficios}>
+            <MeuTexto style={style.beneficios}>
                 Benefícios
-            </Text>
+            </MeuTexto>
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botaoImplementacao}>
-            <Text style={style.implementacao}>
+            <MeuTexto style={style.implementacao}>
                 Implementação
-            </Text>
+            </MeuTexto>
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botaoCases}>
-            <Text style={style.cases}>
+            <MeuTexto style={style.cases}>
                 Cases de Sucesso
-            </Text>
+            </MeuTexto>
         </TouchableOpacity>
     </View>
 )}
@@ -44,9 +45,9 @@ const style = StyleSheet.create({
     },
     oQueE:{
         textAlign: 'center',
-        color: '#E9DFD6',
+        /* color: '#E9DFD6', */
         top: 100,
-        justifyContent: 'center'
+        /* justifyContent: 'center' */
     },
     botaoBeneficios:{
         right: 90,
@@ -61,9 +62,9 @@ const style = StyleSheet.create({
     },
     beneficios:{
         textAlign: 'center',
-        color: '#E9DFD6',
+        /* color: '#E9DFD6', */
         top: 100,
-        justifyContent: 'center'
+        /* justifyContent: 'center' */
     },
     botaoImplementacao:{
         left: 90,
@@ -78,9 +79,9 @@ const style = StyleSheet.create({
     },
     implementacao:{
         textAlign: 'center',
-        color: '#E9DFD6',
+        /* color: '#E9DFD6', */
         top: 100,
-        justifyContent: 'center'
+        /* justifyContent: 'center' */
     },
     botaoCases:{
         left: 90,
@@ -95,9 +96,9 @@ const style = StyleSheet.create({
     },
     cases:{
         textAlign: 'center',
-        color: '#E9DFD6',
+        /* color: '#E9DFD6', */
         top: 90,
-        justifyContent: 'center'
+        /* justifyContent: 'center' */
     }
 })
 
