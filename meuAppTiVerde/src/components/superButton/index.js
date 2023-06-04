@@ -6,25 +6,25 @@ const SuperButton = () => {
     return(
     <View>
         <MeuBotao style={style.botaoOQueE}>
-            <MeuTexto style={style.oQueE}>
+            <MeuTexto style={style.textButton}>
                 O que é?
             </MeuTexto>
         </MeuBotao>
 
         <MeuBotao style={style.botaoBeneficios}>
-            <MeuTexto style={style.beneficios}>
+            <MeuTexto style={style.textButton}>
                 Benefícios
             </MeuTexto>
         </MeuBotao>
 
         <MeuBotao style={style.botaoImplementacao}>
-            <MeuTexto style={style.implementacao}>
+            <MeuTexto style={style.textButton}>
                 Implementação
             </MeuTexto>
         </MeuBotao>
 
         <MeuBotao style={style.botaoCases}>
-            <MeuTexto style={style.cases}>
+            <MeuTexto style={style.textButton}>
                 Cases de Sucesso
             </MeuTexto>
         </MeuBotao>
@@ -43,12 +43,12 @@ const style = StyleSheet.create({
         borderRadius: 10,
         opacity: 70 */
     },
-    oQueE:{
+ /*    oQueE:{
         textAlign: 'center',
-        /* color: '#E9DFD6', */
+        color: '#E9DFD6',
         top: 100,
-        /* justifyContent: 'center' */
-    },
+        justifyContent: 'center'
+    }, */
     botaoBeneficios:{
         right: 90,
         top: 190,
@@ -60,12 +60,12 @@ const style = StyleSheet.create({
         borderRadius: 10,
         opacity: 70 */
     },
-    beneficios:{
+/*     beneficios:{
         textAlign: 'center',
-        /* color: '#E9DFD6', */
+        color: '#E9DFD6',
         top: 100,
-        /* justifyContent: 'center' */
-    },
+        justifyContent: 'center'
+    }, */
     botaoImplementacao:{
         left: 90,
         top: -125,
@@ -77,12 +77,12 @@ const style = StyleSheet.create({
         borderRadius: 10,
         opacity: 200 */
     },
-    implementacao:{
+/*     implementacao:{
         textAlign: 'center',
-        /* color: '#E9DFD6', */
+        color: '#E9DFD6',
         top: 100,
-        /* justifyContent: 'center' */
-    },
+        justifyContent: 'center'
+    }, */
     botaoCases:{
         left: 90,
         top: -95,
@@ -94,7 +94,7 @@ const style = StyleSheet.create({
         borderRadius: 10,
         opacity: 70 */
     },
-    cases:{
+    textButton:{
         textAlign: 'center',
         /* color: '#E9DFD6', */
         top: 90,
