@@ -5,19 +5,23 @@ import { Container, MeuBotao, MeuTexto} from "../../styles/style-geral";
 const SuperButton = () => {
     return(
             <View>
-                <MeuBotao style={style.botaoOQueE}>
+                <MeuBotao 
+                style={style.botaoOQueE}>
                     <MeuTexto>O que é?</MeuTexto>
                 </MeuBotao>
 
-                <MeuBotao style={style.botaoBeneficios}>
+                <MeuBotao 
+                style={style.botaoBeneficios}>
                     <MeuTexto>Benefícios</MeuTexto>
                 </MeuBotao>
 
-                <MeuBotao style={style.botaoImplementacao}>
+                <MeuBotao 
+                style={style.botaoImplementacao}>
                     <MeuTexto>Implementação</MeuTexto>
                 </MeuBotao>
 
-                <MeuBotao style={style.botaoCases}>
+                <MeuBotao 
+                style={style.botaoCases}>
                     <MeuTexto>Cases de Sucesso</MeuTexto>
                 </MeuBotao>
             </View>

@@ -12,17 +12,17 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen
-        name='Contato'
-        component={contato}/>
+      <Tab.Navigator initialRouteName='Home'>
+         <Tab.Screen
+         name='Contato'
+         component={contato}/>
 
         <Tab.Screen
         name='Home'
         component={Home}/>
-
+ 
         <Tab.Screen
-        name='Configurações'
+        name='Configs'
         component={configuracoes}/>
       </Tab.Navigator>
     </NavigationContainer>

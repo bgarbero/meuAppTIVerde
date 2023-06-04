@@ -2,9 +2,9 @@ import styled from "styled-components/native";
 
 const Container = styled.View`
         flex: 1;
-        align-Items: 'center';
-        justify-Content: 'center';
-        background-Color: '#E9DFD6';
+        align-Items: center;
+        justify-Content: center;
+        background-Color: #E9DFD6;
 `;
 
 const MeuTexto = styled.Text`
