@@ -6,7 +6,6 @@ function contato(){
     return (
         <Container>
             <MeuTitulo>TI Verde</MeuTitulo>
-                <MeuTexto>Contato</MeuTexto>
         </Container>
     )
 }

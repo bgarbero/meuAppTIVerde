@@ -15,15 +15,31 @@ export default function App() {
       <Tab.Navigator initialRouteName='Home'>
          <Tab.Screen
          name='Contato'
-         component={contato}/>
+         component={contato}
+         options={{
+          headerStyle:{
+            backgroundColor: "#3B8528"
+          }
+         }}/>
 
         <Tab.Screen
         name='Home'
-        component={Home}/>
+        component={Home}
+        options={{
+          title:"",
+          headerStyle:{
+            backgroundColor: "#3B8528"
+          }
+        }}/>
  
         <Tab.Screen
         name='Configs'
-        component={configuracoes}/>
+        component={configuracoes}
+        options={{
+          headerStyle:{
+            backgroundColor: "#3B8528"
+          }
+        }}/>
       </Tab.Navigator>
     </NavigationContainer>
   );

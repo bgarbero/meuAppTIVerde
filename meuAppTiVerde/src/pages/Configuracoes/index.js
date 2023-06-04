@@ -6,7 +6,6 @@ function configuracoes(){
     return (
         <Container>
             <MeuTitulo>TI Verde</MeuTitulo>
-                <MeuTexto>Configurações</MeuTexto>
         </Container>
     )
 }
