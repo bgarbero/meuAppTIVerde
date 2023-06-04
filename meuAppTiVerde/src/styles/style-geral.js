@@ -26,8 +26,21 @@ const MeuTitulo = styled.Text`
         top: 120;
 `;
 
+const MeuBotao = styled.TouchableOpacity`
+/*         right: 90;
+        top: 160; */
+        background-Color: #3B8528;
+        /* padding: 10; */
+        width: 138;
+        height: 143;
+        font-Size: 13;
+        border-Radius: 10;
+        opacity: 70;
+`;
+
 export {
     Container,
     MeuTexto,
-    MeuTitulo
+    MeuTitulo,
+    MeuBotao
 }
