@@ -12,18 +12,19 @@ const MeuTexto = styled.Text`
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #E9DFD6;
+    /* color: #E9DFD6; */
     text-Align: center;
     top: 90;
 `;
 
 const MeuTitulo = styled.Text`
+        flex: 1;
         color: #3B8528;
         text-Align: center;
         font-Size: 32;
         font-Weight: 400;
         opacity: 70;
-        top: 60;
+        top:70;
 `;
 
 const MeuBotaoOQueE = styled.TouchableOpacity`
@@ -40,7 +41,7 @@ const MeuBotaoOQueE = styled.TouchableOpacity`
 
 const MeuBotaoBeneficios = styled.TouchableOpacity`
         right: 90;
-        top: 130;
+        top: -12;
         background-Color: #3B8528;
         width: 138;
         height: 143;
@@ -52,7 +53,7 @@ const MeuBotaoBeneficios = styled.TouchableOpacity`
 
 const MeuBotaoImplementacao = styled.TouchableOpacity`
         left: 90;
-        top: -187;
+        top: -43;
         background-Color: #3B8528;
         width: 138;
         height: 143;
@@ -74,6 +75,11 @@ const MeuBotaoCases = styled.TouchableOpacity`
         padding: 10px;
 `;
 
+const Cpu = styled.Image`
+        flex: 1;
+        top: 50;
+`;
+
 export {
     Container,
     MeuTexto,
@@ -81,5 +87,6 @@ export {
     MeuBotaoOQueE,
     MeuBotaoBeneficios,
     MeuBotaoImplementacao,
-    MeuBotaoCases
+    MeuBotaoCases,
+    Cpu
 }
