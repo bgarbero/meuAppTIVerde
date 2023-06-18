@@ -1,10 +1,15 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './src/pages/Home';
+import login from './src/pages/Login';
 import contato from './src/pages/Contato';
 import configuracoes from './src/pages/Configuracoes';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+/* import { createDrawerNavigator  } from '@react-navigation/drawer'; */
+import { Feather } from '@expo/vector-icons';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
 const Tab = createBottomTabNavigator();
@@ -12,7 +17,15 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator initialRouteName='Home'>
+      <Tab.Navigator initialRouteName='Login'>
+      <Tab.Screen
+      name='Login'
+      component={login}
+      options={{
+        title: ""
+      }}
+    />
+
          <Tab.Screen
          name='Contato'
          component={contato}
@@ -41,15 +54,8 @@ export default function App() {
           }
         }}/>
       </Tab.Navigator>
+
     </NavigationContainer>
   );
 }
 
-/* const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#E9DFD6',
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-}); */
