@@ -2,10 +2,15 @@ import 'react-native-gesture-handler';
 /* import 'react-native-reanimated' */
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+
 import Home from './src/pages/Home';
 import contato from './src/pages/Contato';
 import configuracoes from './src/pages/Configuracoes';
 import PageOqueE from './src/pages/PageOqueE';
+import Implementacao from './src/pages/Implementacao';
+import Beneficios from './src/pages/Beneficios';
+import Cases from './src/pages/CasesDeSucesso';
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 /* import { createDrawerNavigator } from '@react-navigation/drawer'; */
@@ -29,7 +34,36 @@ const TabNavigate = () => {
           }
          }}/>
 
-        <Tab.Screen
+{/* <Tab.Screen
+        name='O que é?'
+        component={PageOqueE}
+        options={{
+          title:"O que é?",
+          headerStyle:{
+            backgroundColor: "#3B8528"
+          }
+        }}/> */}
+ 
+{/*         <Tab.Screen
+        name='Configuraçõess'
+        component={configuracoes}
+        options={{
+          headerStyle:{
+            backgroundColor: "#3B8528"
+          }
+        }}/> */}
+
+      <Tab.Screen
+        name='Implementacao'
+        component={Implementacao}
+        options={{
+          title:"Implementação",
+          headerStyle:{
+            backgroundColor: "#3B8528"
+          }
+        }}/>
+
+      <Tab.Screen
         name='Home'
         component={Home}
         options={{
@@ -38,21 +72,22 @@ const TabNavigate = () => {
             backgroundColor: "#3B8528"
           }
         }}/>
- 
-        <Tab.Screen
-        name='Configs'
-        component={configuracoes}
+
+    <Tab.Screen
+        name='Beneficios'
+        component={Beneficios}
         options={{
+          title:"Benefícios",
           headerStyle:{
             backgroundColor: "#3B8528"
           }
         }}/>
 
-        <Tab.Screen
-        name='O que é?'
-        component={PageOqueE}
+    <Tab.Screen
+        name='Cases'
+        component={Cases}
         options={{
-          title:"O que é?",
+          title:"Cases",
           headerStyle:{
             backgroundColor: "#3B8528"
           }
@@ -61,20 +96,11 @@ const TabNavigate = () => {
   )
 }
 
-/* const DrawerNavigate = () => {
-  return(
-    <Drawer.Navigator>
-      <Drawer.Screen/>
-      <Drawer.Screen/>
-    </Drawer.Navigator>
-  )
-} */
 
 export default function App() {
   return (
     <NavigationContainer>
       <TabNavigate></TabNavigate>
-      {/* <DrawerNavigate name = "O que é?" component={PageOqueE}></DrawerNavigate> */}
     </NavigationContainer>
   );
 }

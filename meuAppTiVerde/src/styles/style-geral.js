@@ -24,71 +24,29 @@ const MeuTitulo = styled.Text`
         font-Size: 32;
         font-Weight: 400;
         opacity: 70;
-        top: 215;
+        top: 30;
 `;
-
-/* const MeuBotaoOQueE = styled.TouchableOpacity`
-        right: 90;
-        top: 100;
-        background-Color: #3B8528;
-        width: 138;
-        height: 143;
-        font-Size: 13;
-        border-Radius: 10;
-        opacity: 70;
-        padding: 10px;
-`;
-
-const MeuBotaoBeneficios = styled.TouchableOpacity`
-        right: 90;
-        top: -12;
-        background-Color: #3B8528;
-        width: 138;
-        height: 143;
-        font-Size: 13;
-        border-Radius: 10;
-        opacity: 70;
-        padding: 10px;
-`;
-
-const MeuBotaoImplementacao = styled.TouchableOpacity`
-        left: 90;
-        top: -43;
-        background-Color: #3B8528;
-        width: 138;
-        height: 143;
-        font-Size: 13;
-        border-Radius: 10;
-        opacity: 70;
-        padding: 10px;
-`;
-
-const MeuBotaoCases = styled.TouchableOpacity`
-        left: 90;
-        top: -156;
-        background-Color: #3B8528;
-        width: 138;
-        height: 143;
-        font-Size: 13;
-        border-Radius: 10;
-        opacity: 70;
-        padding: 10px;
-`; */
 
 const Cpu = styled.Image`
         /* flex: 3; */
-        top: 200;
+        top: 30;
         width: 150;
         height: 150
+`;
+
+const Quadrado = styled.View`
+        flex: 4;
+        background: #3B8528;
+        width: 350px;
+        height:450px;
+        top: 50;
+        border-radius: 10px
 `;
 
 export {
     Container,
     MeuTexto,
     MeuTitulo,
-/*     MeuBotaoOQueE,
-    MeuBotaoBeneficios,
-    MeuBotaoImplementacao,
-    MeuBotaoCases, */
-    Cpu
+    Cpu,
+    Quadrado
 }
