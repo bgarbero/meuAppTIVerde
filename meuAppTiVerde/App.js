@@ -34,25 +34,6 @@ const TabNavigate = () => {
           }
          }}/>
 
-{/* <Tab.Screen
-        name='O que é?'
-        component={PageOqueE}
-        options={{
-          title:"O que é?",
-          headerStyle:{
-            backgroundColor: "#3B8528"
-          }
-        }}/> */}
- 
-{/*         <Tab.Screen
-        name='Configuraçõess'
-        component={configuracoes}
-        options={{
-          headerStyle:{
-            backgroundColor: "#3B8528"
-          }
-        }}/> */}
-
       <Tab.Screen
         name='Implementacao'
         component={Implementacao}
