@@ -48,7 +48,7 @@ const TabNavigate = () => {
         name='Home'
         component={Home}
         options={{
-          title:"Home",
+          title:"O que é?",
           headerStyle:{
             backgroundColor: "#3B8528"
           }
